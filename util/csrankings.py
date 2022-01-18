@@ -91,6 +91,9 @@ areadict: Dict[Area, List[Conference]] = {
         Conference("OOPSLA/ECOOP"),
     ],  # Next tier; note in 1990 the conference was merged with ECOOP
     Area("icfp"): [Conference("ICFP")],  # Next tier
+    Area("esop"): [Conference("ESOP")],  # Next tier
+    Area("ecoop"): [Conference("ECOOP")],  # Next tier
+    Area("concur"): [Conference("CONCUR")],  # Next tier
     Area("pacmpl"): [
         Conference("PACMPL"),
         Conference("Proc. ACM Program. Lang."),
@@ -181,13 +184,15 @@ areadict: Dict[Area, List[Conference]] = {
     Area("micro"): [Conference("MICRO")],
     Area("hpca"): [Conference("HPCA")],  # next tier
     # SIGLOG
-    # 'log': ['CAV', 'CAV (1)', 'CAV (2)', 'LICS', 'CSL-LICS'],
+    # 'log': ['CAV', 'CAV (1)', 'CAV (2)', 'TACAS', 'TACAS (1)', 'TACAS (2)', 'TACAS (3)', 'LICS', 'CSL-LICS'],
     Area("cav"): [
         Conference("CAV"),
         Conference("CAV (1)"),
         Conference("CAV (2)"),
     ],
     Area("lics"): [Conference("LICS"), Conference("CSL-LICS")],
+    Area("tacas"): [Conference("TACAS"), Conference("TACAS (1)"), Conference("TACAS (2)"), Conference("TACAS (3)")],
+    Area("fossacs"): [Conference("FoSSaCS")],
     # SIGACT
     # 'act': ['STOC', 'FOCS', 'SODA'],
     Area("focs"): [Conference("FOCS")],

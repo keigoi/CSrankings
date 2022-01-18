@@ -268,6 +268,9 @@ class CSRankings {
             'pldi': 'plan',
             'oopsla': 'plan', // next tier 
             'icfp': 'plan',   // next tier
+            'esop': 'plan',   // next tier
+            'ecoop': 'plan',   // next tier
+            'concur': 'plan',   // next tier
             'fse': 'soft',
             'icse': 'soft',
             'ase': 'soft',    // next tier
@@ -283,6 +286,8 @@ class CSRankings {
             'eurocrypt': 'crypt',
             'cav': 'log',
             'lics': 'log',
+            'fossacs': 'log',
+            'tacas': 'log',
             'ismb': 'bio',
             'recomb': 'bio',
             'ec': 'ecom',
@@ -385,6 +390,9 @@ class CSRankings {
         { area: "popl", title: "PL" },
         { area: "icfp", title: "PL" },   // next tier
         { area: "oopsla", title: "PL" }, // next tier
+        { area: "esop", title: "PL" }, // next tier
+        { area: "concur", title: "PL" }, // next tier
+        { area: "ecoop", title: "PL" }, // next tier
         { area: "plan", title: "PL" },
         { area: "soft", title: "SE" },
         { area: "fse", title: "SE" },
@@ -401,6 +409,8 @@ class CSRankings {
         { area: "log", title: "Logic" },
         { area: "cav", title: "Logic" },
         { area: "lics", title: "Logic" },
+        { area: "tacas", title: "Logic" },
+        { area: "fossacs", title: "Logic" },
         { area: "graph", title: "Graphics" },
         { area: "siggraph", title: "Graphics" },
         { area: "siggraph-asia", title: "Graphics" },
